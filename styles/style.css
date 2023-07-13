@@ -52,6 +52,16 @@ body {
 }
 
 
+.common-title {
+    margin-bottom: 60px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* start header */
 /* start header */
 /* start header */
@@ -166,4 +176,222 @@ body {
     position: absolute;
     top: -123px;
     left: calc(100% - 991px);
+}
+
+/* end main-content */
+/* end main-content */
+/* end main-content */
+
+/*  start why */
+/*  start why */
+/*  start why */
+
+.why {
+    padding-bottom: 180px;
+    background-image: url('./../images/whybg.png');
+    background-position: top center;
+    background-size: initial;
+}
+
+.why-items {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(3, 312px);
+    justify-content: center;
+}
+
+.why-item {
+    text-align: center;
+}
+
+.why-item-images {
+    margin-bottom: 24px;
+}
+
+.why-item-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.why-item-text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+/*  end why */
+/*  end why */
+/*  end why */
+
+/* start  products */
+/* start  products */
+/* start  products */
+
+.products {
+    background-image: url('./../images/burgers_bg.png');
+    background-position: top center;
+    background-size: 1400px;
+    padding-bottom: 180px;
+}
+
+.products-items {
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    gap: 24px;
+}
+
+.products-item {
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #353535;
+    background: #211A16;
+}
+
+.products-item-image {
+    height: 250px;
+    margin-bottom: 24px;
+}
+
+.products-item-image img {
+    max-width: 100%;
+}
+
+.products-item-title {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.products-item-text {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.products-item-extra {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-item-info {}
+
+.products-item-price {
+    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.products-item-weight {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.products-item-action {}
+
+.button.products-button {
+    display: flex;
+    align-items: center;
+}
+
+.button.products-button span:first-child {
+    margin-right: 10px;
+}
+
+/* end  products */
+/* end  products */
+/* end  products */
+
+/* start order */
+/* start order */
+/* start order */
+
+.order {
+    background-images: url('./../images/order_bg.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+    overflow: hidden;
+}
+
+.order .container {
+    position: relative;
+}
+
+.order-title {}
+
+.order-image {
+    position: absolute;
+    top: 0;
+    right: calc(100% - 764px);
+    z-index: -1;
+}
+
+.order-form {
+    max-width: 426px;
+    padding: 60px 40px;
+    margin-left: 674px;
+    border-radius: 16px;
+    border: 1px solid #353535;
+    background-color: #211A16;
+}
+
+.order-form-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.order-form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form-input {
+    margin-bottom: 20px;
+    width: 344px;
+    height: 62px;
+    border-radius: 8px;
+    background: linear-gradient(95.61deg, #da8023 0%, #e28438 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-form-input input {
+    padding: 20px 10px;
+    background-color: #211a16;
+    border-radius: 8px;
+    width: 342px;
+    height: 60px;
+    outline: none;
+    border: 1px solid transparent;
+    color: inherit;
+}
+
+/* end order */
+/* end order */
+/* end order */
+
+/* start footer */
+/* start footer */
+/* start footer */
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights {
+    font-size: 16px;
+    font-weight: 600;
 }
