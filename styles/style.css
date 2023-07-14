@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    pading: 0;
+    /*pading: 0;*/
     box-sizing: border-box;
 }
 
@@ -37,6 +37,9 @@ body {
     cursor: pointer;
     border: 0;
     outline: none;
+
+    position: relative;
+    z-index: 10;
 }
 
 .button:hover {
@@ -109,7 +112,13 @@ body {
 }
 
 .currency {
-    padding: 12px 17px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*padding: 12px 17px;*/
     border-radius: 5px;
     border: 1px solid #FFF;
     color: #fff;
@@ -310,7 +319,7 @@ body {
 /* start order */
 
 .order {
-    background-images: url('./../images/order_bg.png');
+    background-image: url('./../images/order_bg.png');
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 180px;
